@@ -1,0 +1,87 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:css bower_components/bootstrap/dist/css/bootstrap.css -->
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+            <div class="container">
+
+                <div class="btn-group navbar-right" role="group">
+                    <button href="#presentacion" class="btn btn-primary navbar-btn" data-slide-to="0" type="button">
+                        <span class="fa fa-fast-backward"></span>
+                    </button>
+                    <button href="#presentacion" class="btn btn-primary navbar-btn" type="button" data-slide="prev">
+                        <span class="fa fa-step-backward" data-slide="prev"></span>
+
+                    </button>
+
+                    <button href="#presentacion" class="btn btn-primary navbar-btn" data-slide="next" type="button">
+                        <span class="fa fa-step-forward"></span>
+                    </button>
+
+                    <button href="#presentacion" class="btn btn-primary navbar-btn" data-slide-to="13" type="button">
+                        <span class="fa fa-fast-forward"></span>
+                    </button>
+                </div>
+
+
+                <h3 class="navbar-text navbar-left"></h3>
+            </div>
+
+            </div>
+    </nav>
+    </div>
+
+    <div class="wrap">
+        <div class="carousel slide" data-ride="carousel" id="presentacion">
+            <div class="carousel-inner" role="listbox"></div>
+    </div>
+    </div>
+
+
+    <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+        -->
+    <!-- build:js scripts/main.js -->
+    <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
+    <!-- endbuild -->
+    <!-- build:js scripts/fastclick.js -->
+    <!--
+        <script src="scripts/fastclick.js"></script>
+        <script src="scripts/fastclick.example.js"></script>
+        -->
+    <!-- endbuild -->
+</body>
+
+</html>

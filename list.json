@@ -1,0 +1,60 @@
+[
+    {
+        "title": "Portada",
+        "uri": "portada"
+    },
+
+    {
+        "title": "Sistema de trabajo",
+        "uri": "sistema-trabajo"
+    },
+    {
+        "title": "Sistema y subsistemas en la Universidad",
+        "uri": "sistema-subsistema"
+    },
+    {
+        "title": "Clasificación de Peligros",
+        "uri": "clasificacion-peligros"
+    },
+    {
+        "title": "Secuencia conducente al daño",
+        "uri": "secuencia-dano"
+    },
+    {
+        "title": "Sistema General de Riesgos Laborales",
+        "uri": "sistema-riesgos-laborales"
+    },
+    {
+        "title": "Responsabilidades y obligaciones - SGRL",
+        "uri":"responsabilidades-obligaciones"
+    },
+    {
+        "title": "Estructura SG-SST Universidad",
+        "uri": "estructura-sgrl"
+    },
+    {
+        "title": "Niveles de documentación",
+        "uri": "niveles-documentacion"
+    },
+    {
+        "title": "Procedimientos (Gestión por peligros)",
+        "uri": "procedimientos-gestion"
+    },
+    {
+        "title": "Medidas de prevención y control",
+        "uri":"medidas-prevencion-control"
+    },
+    {
+        "title": "Documentos institucionales de consulta",
+        "uri": "documentos-institucionales"
+    },
+    {
+        "title": "Contacto",
+        "uri": "contacto"
+    },
+    {
+        "title": "Créditos",
+        "uri": "creditos"
+    }
+
+]

@@ -1,0 +1,757 @@
+
+@font-face{
+    font-family: roboto-reg;
+    src:url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face{
+    font-family: roboto-black;
+    src: url("../fonts/Roboto-Black.ttf");
+}
+
+@font-face{
+    font-family: roboto-light;
+    src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face{
+    font-family: roboto-bold;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face{
+    font-family: roboto-med;
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face{
+    font-family: source-reg;
+    src: url("../fonts/SourceSansPro-Regular.ttf");
+}
+
+@font-face{
+    font-family: source-bold;
+    src: url("../fonts/SourceSansPro-Bold.ttf");
+}
+
+@font-face{
+    font-family: source-light;
+    src: url("../fonts/SourceSansPro-Light.ttf");
+}
+
+@font-face{
+    font-family: aleo-reg;
+    src:url("../fonts/Aleo-Regular.otf")
+}
+
+@font-face{
+    font-family: aleo-bold;
+    src: url("../fonts/Aleo-Bold.otf");
+}
+@font-face{
+    font-family: aleo-light;
+    src:url("../fonts/Aleo-Light.otf");
+}
+
+
+
+/* COLORS */
+
+
+@azul-oscuro: #0F3942;
+@azul-medio: #2B4A54;
+@azul-claro: #76B2AC;
+@azul-clarito: #97C6C1;
+
+@rojo-medio: #D31C00;
+@rojo-claro: #C64542;
+@rojo-clarito: #CC5D5A;
+
+/****************************/
+
+/* GENERAL STYLES */
+html, body{
+  height: 100%;
+}
+
+body {
+    padding-top:50px;
+    height:100%;
+    min-height: 100%;
+}
+/*
+h1, h2{
+    font-family: aleo-bold;
+} 
+
+h3, h4{
+    font-family: aleo-reg;
+}
+*/
+
+h1, h2{
+  font-family: aleo-bold;
+}
+
+@media screen and (max-width:768px){
+
+    h1, h2{
+        font-size: 1.2em !important;
+    }
+
+    h3, h4{
+        font-size: 1em !important;
+    }
+}
+
+a a:hover {
+  text-decoration: none !important;
+}
+/* UTILS */
+
+.wrap{
+  min-height: 100%;
+  height: auto !important;
+}
+
+
+.full{
+    min-height: 100%;
+    width: 100%;
+    height: auto !important;
+}
+
+.full-rel{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+
+.full-h{
+    position: absolute;
+    height: 100% !important;
+    min-height:100%;
+    height: 100%;
+    top:0;
+    bottom:0;
+}
+
+
+.container-fluid.hfix{
+    display:table;
+    height: 100%;
+    width: 100%;
+    margin-top: -50px;
+    padding-top: 50px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;  
+}
+
+.row.hfix
+{
+    height: 100%;
+    display: table-row;
+}
+
+
+.col-md-8.no-float, .col-md-4.no-float {
+    float: none; /* thanks baxabbit */
+}
+
+
+/*
+
+.col-md-4
+{
+    display: table-cell;
+    width: 33%;
+    padding-top: 0%;
+}
+.col-md-8
+{
+    display: table-cell;
+    width: 66%;
+}
+*/
+
+.h1-reg{
+    font-family: aleo-reg;
+}
+
+.overlay-aguamarina{
+     background-color: #79BAB4;
+     opacity: 0.8;
+}
+
+.no-pad{
+    padding:0%;
+}
+
+.abs {
+  position: absolute;
+}
+
+.pad-top{
+  padding-top: 20%;
+}
+
+.pad-top-sm{
+  padding-top:5%;
+}
+
+.to-back{
+  position: relative;
+  z-index:-1000;
+}
+
+.to-front{
+    position:absolute;
+    z-index: 9999;
+
+}
+
+.to-middle{
+  position: absolute;
+  z-index: 5555;
+}
+
+.bg-fix{
+  display: block;
+  height: 100%;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/* BOOTSTRAP COMPONENTS */
+
+
+
+.pager li > a,
+.pager li > span {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #4D9890;
+  border: none;
+  border-radius: 15px;
+  color: #ACDBD6;
+}
+
+.pager li > a:hover,
+.pager li > a:focus {
+  text-decoration: none;
+  background-color: #ACDBD6;
+  color: #4D9890;
+}
+/*
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: .5em solid #8DD1AC;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+
+.well blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.well footer{
+  color: #4B4232;
+}
+
+.well-lg {
+  padding: 24px;
+  border-radius: 0px;
+}
+
+.well-sm {
+  padding: 9px;
+  border-radius: 0px;
+}
+
+*/
+
+.full-height{
+    height: 100%;
+}
+
+.panel .list-group, .panel .list-group-item{
+  border:none;
+  font-size:1.2em;
+}
+
+.panel:after{
+  content: "\f103";
+  font-family:FontAwesome;
+  font-size: 3em;
+  width: 100%;
+  text-align:center;
+  display: block;
+}
+
+.panel-heading{
+    font-family: aleo-bold;
+
+}
+
+.response.list-group-item {
+    display: list-item;
+}
+
+#resp-adm-pnl .panel-heading{
+  background-color: @azul-oscuro;
+  color: #fff;
+}
+
+#resp-adm-pnl :after{
+  color: @azul-oscuro;
+}
+
+#resp-trbj-pnl .panel-heading{
+  background-color: @azul-claro;
+  color: #fff;
+}
+
+#resp-empl-pnl .panel-heading{
+  background-color: @rojo-medio;
+  color: #fff;
+}
+
+
+
+/* COLORS */
+
+
+/* R: 94, G: 83, B: 65  */
+
+.marron{
+  /* color: #5E5341; */ 
+  color: #4B4232;
+}
+
+/* R: 128, G: 119, B: 105 */
+.marron-claro{
+  color: #807769;
+}
+
+/*  */
+.bg-white{
+  background: #fff;
+}
+
+.bg-marron{
+    background-color: #4B4232;
+}
+
+/* R: 141, G: 209, B: 172  */
+.turquesa{
+    color: #8DD1AC;
+}
+
+/* R: 210, G: 237, B: 224 */
+
+.turquesa-claro{
+  color: #D2EDE0;
+}
+
+.bg-turquesa{
+    background-color: #8DD1AC;
+}
+.aguamarina{
+    color: #79BAB4;
+}
+
+.bg-aguamarina{
+    background-color:  #79BAB4;
+}
+
+/* rgb 212 92 94 */
+.rosa{
+  color: #D45C5E;
+}
+
+.bg-rosa{
+  background-color: #D45C5E;
+}
+
+
+.link-icon
+
+/* 240 118  120*/
+.rosaclaro{
+  color: #F58C8C;
+}
+
+.bg-rosaclaro{
+  color: #F58C8C;
+}
+
+.rojo{
+  color:#A0244A;
+}
+
+.rojo-claro{
+  color:#D9384F;
+}
+
+.gris{
+  color: #CBD9D7;
+}
+
+.gris-claro{
+  color: #D5DFDC;
+}
+
+
+.salmon-claro{
+  color:#F37676;
+}
+
+
+.salmon{
+  color: #F05454;
+}
+
+/* azul 57 154 167 */
+
+.azul{
+    background: #44A9B6;
+}
+
+/* AZUL CLARO 76 183 197 */
+
+.azul-claro{
+  background: #5AC2D0;
+}
+
+
+.azul-oscuro{
+ color:  @azul-oscuro;
+}
+
+.bg-azuloscuro{
+  background: @azul-oscuro;
+}
+
+
+/* PORTADA */
+
+
+
+/* INTRO */
+
+.bg-puj{
+    background: url(../images/javeriana_mono.png) no-repeat;
+    background-size:100%;
+}
+
+
+@media screen and (max-width:768px){
+
+    h1, h2{
+        font-size: 1.2em !important;
+    }
+
+    h3, h4{
+        font-size: 1em !important;
+    }
+}
+
+
+/* SISTEMAS-SUBSISTEMAS*/
+
+.subsis-list{
+  width: 100%;
+  padding: 0;
+}
+
+.subsis-list li{
+  list-style-type: none;
+  border-top: .15em solid white;
+  border-bottom: .15em solid white;
+  font-size: 1.5em;
+}
+
+.subsis-list a:hover li{
+  background-color: @rojo-medio;
+}
+
+.subsis-list a li{
+  color: white;
+}
+
+.subsis-tit{
+  width: 100%;
+  font-size: 2em;
+  color: @azul-oscuro;
+  font-family: aleo-bold;
+
+}
+
+
+
+/* SISTEMA TRABAJO */
+
+.bg-test{
+  background: #F00;
+}
+
+.secuencia-bgg{
+  background: url(../images/fondo_sistema.png);
+  background-size: 100%;
+}
+
+.secuencia-bg{
+  background: url(../images/fondo_secuencia.png);
+  background-size: 100%;
+}
+
+
+.peligro_list{
+  display: block;
+  width: 90%;
+  height: 90%;
+  top: 28%;
+  left: 15%;
+}
+
+.peligro_list {
+  list-style-type: none;
+}
+
+.peligro_list_item{
+  position:relative;
+  dislplay:block;
+  width: 22%;
+  height:45%;
+  float:left;
+  top:5%;
+  clear:right;
+}
+
+.peligro_caja{
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  border: 0.3em solid white;
+  text-align: center;
+  position:relative;
+  color: #FFF;
+  margin: 2%;
+  height: 90%;
+  width: 90%;
+  background-color: #4B4232;
+  text-decoration: none;
+}
+
+
+
+a:hover .peligro_caja{
+  background-color:#F37676;
+  text-decoration: none !important;
+}
+
+.peligro_caja h1, .peligro_caja h3, .peligro_caja p{
+    text-decoration: none !important;
+}
+
+#leyes-g .link{
+  fill:none;
+  stroke: #fff;
+  stroke-width: 5;
+}
+
+#sgrl-viz{
+  /* background: white;  */
+}
+
+#sgrl-viz .link{
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1em;
+
+}
+
+/* DIAL */
+
+/*
+.dial{
+  fill:none;
+  stroke:#4B4232;
+  strokeWidth:10em;
+}
+*/
+
+#dcircle{
+  fill: #4B4232;
+  stroke:none;
+}
+
+#darrow{
+  fill: #4B4232;
+  stroke: none;
+}
+
+.dmenu-item{
+  font-family: aleo-reg;
+  font-size: 1.5em;
+  fill: #fff;
+}
+
+.dmenu-label{
+
+  fill: @azul-medio;
+  stroke: none;
+}
+/*
+#clasif-txt{
+  top: 0%;
+}
+*/
+
+#clasif-txt li{
+  font-family: aleo-reg;
+  font-size: 1.5em;
+  margin-top: .2em;
+}
+
+/* SGRL  */
+
+.root{
+  fill:  #4CB7C5;
+  stroke: #fff;
+  stroke-width: 1em;
+}
+
+.child{
+  fill:  #F07678;
+  stroke: #fff;
+  stroke-width: 0.5em;
+}
+
+/* MEDIDAS DE CONTROL */
+#medidas-txt{
+  font-family: aleo-reg;
+  font-size: 1.5em;
+  margin-top: .2em;
+
+}
+
+/* ESTRUCTURA VIZ */
+
+#estructura-viz .node{
+  fill: #4B4232;
+}
+
+#estructura-viz text{
+  font-family: aleo-reg;
+  font-size: 1.5em;
+  fill: white;
+}
+
+#estructura-viz .link{
+  fill:none;
+  stroke: #fff;
+  stroke-width: 0.5em;
+}
+
+
+.inner-c{
+    fill:#fff;
+    stroke: @azul-oscuro;
+    stroke-width: 5;
+}
+
+.innertag{
+    fill:@azul-oscuro;
+    stroke:none;
+}
+
+.inner-text{
+    fill:#fff;
+    font-family: aleo-reg;
+}
+
+.middle-c{
+    fill:#fff;
+    stroke: @azul-clarito;
+    stroke-width: 5;
+}
+
+
+
+.middletag{
+    fill:@azul-clarito;
+    stroke:none;
+}
+
+.middle-text{
+    fill:#fff;
+    font-family: aleo-reg;
+}
+
+
+
+.outer-c{
+    fill:#fff;
+    stroke: @rojo-medio;
+    stroke-width: 5;
+}
+
+.outertag{
+    fill:@rojo-medio;
+    stroke:none;
+}
+
+.outer-text{
+    fill:white;
+    font-family: aleo-reg;
+}
+
+#pie-container{
+  margin: 0;
+}
+
+/* NIVELES*/
+
+#nivel-1 .panel-heading{
+  background-color: @rojo-medio;
+  color: #fff;
+}
+
+#nivel-2 .panel-heading{
+  background-color: @rojo-medio;
+  color: #fff;
+}
+
+#nivel-3 .panel-heading{
+  background-color: @rojo-medio;
+  color: #fff;
+}
+
+#nivel-4 .panel-heading{
+  background-color: @rojo-medio;
+  color: #fff;
+}
+
+/* PROCEDIMIENTOS */
+
+#procedimientos-lst .list-group-item span{
+  margin-right: 0.3em;
+}
+
+/*
+footer{
+  color: white;
+}
+*/
