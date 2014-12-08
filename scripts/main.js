@@ -161,7 +161,7 @@ require([
                   console.log(id);
                   switch(id){
                     case 'labs':
-                      $('#subsistema-img').attr('src', '../images/macrosistema_laboratorios.png');
+                      $('#subsistema-img').attr('src', 'induccion-beta/images/macrosistema_laboratorios.png');
                       $("#subsis-tit").html('LABORATORIOS');
                       break;
                     case 'ofis':
