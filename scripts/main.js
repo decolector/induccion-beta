@@ -500,8 +500,8 @@ require([
 
                 var l = nodeEnter.append('a')
                     .attr('xlink:href', function(d) {
-                        return 'files/' + d.file
-                    })
+                        return '../files/' + d.file
+                    }).attr('target', '_blank');
 
 
                 l.append('circle')
