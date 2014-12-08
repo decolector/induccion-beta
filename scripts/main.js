@@ -161,19 +161,19 @@ require([
                   console.log(id);
                   switch(id){
                     case 'labs':
-                      $('#subsistema-img').attr('src', 'images/macrosistema_laboratorios.png');
+                      $('#subsistema-img').attr('src', '../images/macrosistema_laboratorios.png');
                       $("#subsis-tit").html('LABORATORIOS');
                       break;
                     case 'ofis':
-                      $('#subsistema-img').attr('src', 'images/macrosistema_oficinas.png');
+                      $('#subsistema-img').attr('src', '../images/macrosistema_oficinas.png');
                       $("#subsis-tit").html('OFICINAS');
                       break;
                     case 'aulas':
-                      $('#subsistema-img').attr('src', 'images/macrosistema_aulas.png');
+                      $('#subsistema-img').attr('src', '../images/macrosistema_aulas.png');
                       $("#subsis-tit").html('AULAS');                      
                       break;
                     case 'talleres':
-                      $('#subsistema-img').attr('src', 'images/macrosistema_talleres.png');
+                      $('#subsistema-img').attr('src', '../images/macrosistema_talleres.png');
                       $("#subsis-tit").html('TALLERES');                      
                       break;                      
                   }
